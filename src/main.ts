@@ -101,28 +101,28 @@ const main = async () => {
     window.innerHeight / 2,
   );
 
-  const texture0 = PIXI.Texture.from(baseUrl + 'week2/assets/metal0.jpg');
+  const texture0 = PIXI.Texture.from(baseUrl + '/assets/mosaic0.jpg');
   const tilingSprite0 = new PIXI.TilingSprite(
     texture0,
     window.innerWidth,
     window.innerHeight,
   );
 
-  const texture1 = PIXI.Texture.from(baseUrl + 'week2/assets/metal1.jpeg');
+  const texture1 = PIXI.Texture.from(baseUrl + '/assets/mosaic1.jpg');
   const tilingSprite1 = new PIXI.TilingSprite(
     texture1,
     window.innerWidth,
     window.innerHeight,
   );
 
-  const texture2 = PIXI.Texture.from(baseUrl + 'week2/assets/metal2.jpeg');
+  const texture2 = PIXI.Texture.from(baseUrl + 'week2/assets/mosaic2.webp');
   const tilingSprite2 = new PIXI.TilingSprite(
     texture2,
     window.innerWidth,
     window.innerHeight,
   );
 
-  const texture3 = PIXI.Texture.from(baseUrl + 'week2/assets/metal3.jpeg');
+  const texture3 = PIXI.Texture.from(baseUrl + 'week2/assets/mosaic3.jpg');
   const tilingSprite3 = new PIXI.TilingSprite(
     texture3,
     window.innerWidth,
