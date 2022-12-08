@@ -1,0 +1,29 @@
+.play-view {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-button {
+  color: white;
+  font-size: 5vw;
+  border: 1px solid white;
+  padding: 20px;
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-duration: 2s;
+}
+
+.play-button:hover {
+  color: black;
+  background: white;
+  cursor: pointer;
+}
+
+audio {
+  width: 0;
+}
